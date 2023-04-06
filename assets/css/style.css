@@ -51,6 +51,7 @@ body {
   color: #ffffff;
   font-size: 13px;
 }
+
 /** Header*/
 .header__container {
   gap: 80px;
@@ -337,7 +338,12 @@ color: black;
   width: 400px;
   height: 237px;
 }
-
+.one__link__b a {
+  text-decoration: none;
+}
+.two__link_b a {
+  text-decoration: none;
+}
 /** Contacto*/
 .element__contac {
   display: flex;
@@ -424,16 +430,19 @@ color: black;
     position: fixed;
     top: 60px;
     width: 100%;
-    padding: 20px 0;
-    height: 100%;
+    padding: 2px; 
     overflow-y: auto;
     left: 100%;
     z-index: 10;
     transition: 0.7s;
   }
+  .mi__manu li {
+  
+  }
   .nav__mi_menu {
-    line-height: 60px;
+    line-height: 40px;
     list-style: none;
+    bottom: 360px;
   }
 
   .mi__bar {
