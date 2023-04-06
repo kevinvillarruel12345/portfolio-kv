@@ -435,10 +435,7 @@ color: black;
     line-height: 60px;
     list-style: none;
   }
-  .mi__menu__link:hover,
-  .new__menu {
-    color: var(--purple);
-  }
+
   .mi__bar {
     display: block;
   }
@@ -518,7 +515,7 @@ color: black;
     display: flex;
     justify-content: start;
     overflow-x: scroll;
-    height: 560px;
+    height: 360px;
   }
   .skills_elments {
     min-width: 290px;
@@ -562,6 +559,10 @@ color: black;
     display: none;
   }
 }
-@media (min-width: 428px) {
-
+@media (min-width: 1778px) {
+.skills__items{
+  overflow-x:hidden;
+  display: flex;
+  justify-content: center;
+}
 }
