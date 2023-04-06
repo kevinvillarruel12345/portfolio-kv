@@ -124,6 +124,7 @@ body {
 }
 .is__button a {
   color: #f9f6ff;
+  text-decoration: none;
 }
 /**about*/
 .about {
@@ -470,7 +471,7 @@ color: black;
     display: flex;
     align-items: center;
   }
-
+  
 .second__header__container img{
     width: 100%;
     margin-top: 300px;
