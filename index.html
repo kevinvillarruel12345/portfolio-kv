@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <!--!icons-->
     <script src="https://kit.fontawesome.com/8def3b49a1.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <style class="mover">
         body{
@@ -23,8 +24,7 @@
             background-color: white;
             margin-top: 20%; 
             background-image: url(./assets/img/bm\ \(7\).png); 
-            background-repeat: no-repeat;
-            
+            background-repeat: no-repeat;   
         }
       
         
@@ -40,17 +40,12 @@
         <ul class="mi__manu" id="menu" >
             <li class="nav__mi_menu home">
                 <a href="#is__body" class="mi__menu__link menu__link" onclick="closeMenu()">
-                    Home
-                </a>
-            </li>
-            <li class="nav__mi_menu acercademi">
-                <a href="#is__me" class="mi__menu__link menu__link" onclick="closeMenu()">
                     Acerca de mí
                 </a>
             </li>
             <li class="nav__mi_menu mishabilidades">
                 <a href="#is__main" class="mi__menu__link menu__link" onclick="closeMenu()">
-                    Mis habilidades
+                    Habilidades Tecnicas
                 </a>
             </li>
             <li class="nav__mi_menu experiencia">
@@ -75,7 +70,7 @@
             <div class="first__header__container__p">
         <div class="mi__h1__header">
                 <h1>Kevin Villarruel</h1>
-                <h2 class="header__h2">Frontend Developer</h2>
+                <h2 class="header__h2">Full stack Developer</h2>
                 <hr>
             <div class="icons__container">
                 <div class="icon__shape">
@@ -84,40 +79,45 @@
                 <div class="icon__shape">
                     <a href="https://github.com/kevinvillarruel12345" target="_blank"><i class="fa-brands fa-github"></i></a>
                 </div>
+                
             </div>
-            <button class="is__button">
-                    <a href="https://drive.google.com/file/d/1wjcBABkPcIg_NbyJN4AiAGRQM1JPdOge/view?usp=sharing" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
-                   <a href="https://drive.google.com/file/d/1wjcBABkPcIg_NbyJN4AiAGRQM1JPdOge/view?usp=sharing" target="_blank"> <p>Descargar C.V</p></a>
+            <div>
+                <button class="is__button">
+                    <a href="https://drive.google.com/file/d/1SoIelnDnLDkGTt--nZ3TyD8rwcrzg8w9/view?usp=sharing" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
+                   <a href="https://drive.google.com/file/d/1SoIelnDnLDkGTt--nZ3TyD8rwcrzg8w9/view?usp=sharing" target="_blank"> <p>Descargar C.V</p></a>
             </button>
+            </div>
+            <article class="about">
+                <div class="estruc">
+                    
+                    <div class="estruc__h2">
+                        <h2>Acerca de mí</h2>
+                    </div>    
+                        <p>Soy Kevin Villarruel, desarrollador Full Stack especializado en tecnologías JavaScript. Con experiencia en React, Node.js, HTML y CSS, estoy aquí para impulsar tu página web con soluciones creativas, eficientes y de vanguardia. Trabajemos juntos para llevar tu proyecto al siguiente nivel y crear una experiencia única para tus usuarios.</p>
+                    </div>
+            </article>
+          
         </div>
         <div class="second__header__container">
             <img src="./assets/img/perfil-kvs-1-p (4).png" alt="">
         </div>
+  
+            
+  
+        
     </header>
     <main id="is__main">
-        <section id="is__me">
-            <article class="about">
-                <div class="estruc">
-                    <div class="estruc__h2">
-                        <h2>Acerca de mí</h2>
-                    </div>    
-                        <p>¡Hola! yo soy un apasionado de la tecnología y del desarrollo web.
-                            Estoy emocionado por la oportunidad de aprender y crecer como desarrollador web. Me encanta enfrentar desafíos y buscar soluciones creativas para resolver problemas. Espero poder aplicar y contribuir de manera significativa a la comunidad de desarrollo web.</p>
-                    </div>
-            </article>
-         </section>   
         <section class="skills__container">
-                    <h2 class="skills__h2">Mis habilidades</h2>
+                    <h2 class="skills__h2">Habilidades Tecnicas</h2>
+                    <h3 class="skills__h3">Front-end</h3>
                 <div class="skills__items">
-                    <div class="skills_elments">
-                        
+                    <div class="skills_elments">                    
                         <div class="icon__title__hbilities"> 
                             <div class="icon__html">  
                               <i class="fa-brands fa-html5"></i> 
                             </div>                        
                             <h4 class="subtitle__h4">HTML 5</h4>
-                        </div>
-                            <p class="p__habilities">Lenguaje de Marcas de Hipertexto. Es utilizado para estructurar de la manera más básica, la forma en la que se desea mostrar la información consignada dentro de una página web. HTML no es un lenguaje de programación, sino, una serie de herramientas que ayudarán a que el contenido se vea y se comporte de una manera determinada.</p> 
+                        </div> 
                     </div>
                     <div class="skills_elments">
                         <div class="icon__title__hbilities">
@@ -126,7 +126,6 @@
                             </div>                            
                             <h4 class="subtitle__h4">CSS 3</h4>
                         </div>
-                            <p class="p__habilities">Hojas de estilo en cascada o CSS derivado del ingles (Cascading Style Sheets). Es usado para entregar representación gráfica o renderización al trabajo realizado con HTML. Es adecuado para ubicar elementos, dar color a texto o animar elementos dentro de una página web, entre muchas funcionalidades más.</p> 
                     </div>
                     <div class="skills_elments">
                         <div class="icon__title__hbilities">
@@ -135,7 +134,6 @@
                             </div>                          
                             <h4 class="subtitle__h4">JavaScript</h4>
                         </div>
-                            <p class="p__habilities">Mejor conocido de manera abreviada como JS, es un lenguaje de programación ligero y enfocado principalmente a páginas web y que, ayuda fundamentalmente a agregarle funcionalidad a las mismas. Sin embargo, gracias a si versatilidad este lenguaje puede ser utilizada en entornos que no son de navegador.</p> 
                     </div>
                     <div class="skills_elments">
                         <div class="icon__title__hbilities">
@@ -144,7 +142,6 @@
                             </div>                           
                             <h4 class="subtitle__h4">React</h4>
                         </div>
-                            <p class="p__habilities">Es una de las librerías para JavaScript más populares del momento. Esta es de uso open source y ayuda principalmente al desarrollo de interfaces de usuario en casi cualquier escala de complejidad. Actualmente compañías de primer nivel tales como Facebook, Netflix y Uber hacen uso de esta librería.</p> 
                     </div> 
                     <div class="skills_elments">
                         <div class="icon__title__hbilities"> 
@@ -153,7 +150,7 @@
                             </div>                        
                             <h4 class="subtitle__h4">Git</h4>
                         </div>
-                            <p class="p__habilities">Es un controlador de versiones que hoy en día es probablemente el más utilizado por el entorno del desarrollo web. GIT hace que trabajar en equipo sea mucho más fácil al permitir clonar de manera local el repositorio en desarrollo. Por otro lado, también nos permite realizar una trazabilidad precisa a cada uno de los cambios realizados por el equipo.</p> 
+                            
                     </div>   
                     <div class="skills_elments">
                         <div class="icon__title__hbilities">
@@ -162,8 +159,40 @@
                             </div> 
                             <h4 class="subtitle__h4">GitHub</h4>
                         </div>
-                            <p class="p__habilities">Es el equivalente a Google Drive pero del mundo del desarrollo. Nos ayuda a trabajar en equipo y asociar nuestros avances realizados de manera local con ayuda de GIT. Este sistema de almacenamiento también es ideal para publicar proyectos personales para darlos a conocer a la comunidad.</p> 
+                           
                     </div>                                        
+                </div>
+                <h3  class="skills__h3">Back-end</h3>
+                <div class="skills__items">
+                    <div class="skills_elments">                    
+                        <div class="icon__title__hbilities"> 
+                            <div class="icon__html">  
+                              <i class="fa-brands fa-node-js"></i>
+                            </div>                        
+                            <h4 class="subtitle__h4">Node Js</h4>
+                        </div> 
+                    </div>
+                    </div> 
+                    <h3  class="skills__h3">Database</h3>
+                <div class="skills__items">
+                    <div class="skills_elments">                    
+                        <div class="icon__title__hbilities"> 
+                            <div class="icon__html">  
+                                <img src="./assets/icons/Mysql canva.png" alt="">
+                            </div>                        
+                            <h4 class="subtitle__h4 MYSQLA">MySQL</h4>
+                        </div> 
+                    </div>
+                    <!--<div class="skills_elments">
+                         <div class="icon__title__hbilities"> 
+                            <div class="icon__css">    
+                              <i class="fa-brands fa-css3"></i> 
+                            </div>                            
+                            <h4 class="subtitle__h4">MongoDB</h4>
+                        </div>-->
+                    </div>
+                   
+                    </div>                                           
                 </div>
         </section>
         <section id="is__habilities"  >
@@ -204,11 +233,31 @@
                             <img class="pokesd" src="./assets/img/pokemon.png" alt="">  
                             <div class="container__text">
                                 <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Poke Appi</h3>
-                                <p class="p__briefcase">Poke-api es una aplicación que permite al usuario visualizar la página con
-                                    los pokemons, también se implementó un buscador para encontrar por
-                                    nombre y categoría. En este proyecto se implementó React Js Vite con la
-                                    aplicación de Redux, React Router, Hooks y Custom Hooks.</p>
+                                <p class="p__briefcase">Poke-api es una aplicación que permite al usuario visualizar la página con los pokemons, también se implementó un buscador para encontrar por nombre y categoría.</p>
                             </div>
+                            <div class="title__tecnologies">
+                                <h1>Tecnologías usadas</h1>
+                            </div>
+                            <section class="used__tecnologies">
+                                <div class="my__tecnologies icon_tail__tecnologie">
+                                    <i class='bx bxl-tailwind-css' ></i>
+                                </div>
+                                <div class="my__tecnologies">
+                                   
+                                    <i class="fa-brands fa-react icon_tail__tecnologie"></i>
+                                </div>
+                                <div class="my__tecnologies icon__hmtl_tec">
+                                   
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div class="my__tecnologies icon__redux_tec">
+                                   
+                                    <i class='bx bxl-redux'></i>
+                                </div>
+                                <div class="my__tecnologies icon__js__tec">
+                                    <i class='bx bxl-javascript' ></i>
+                                </div>
+                            </section>
                             <div class="links__brifercase">
                                 <div class="one__link__b">
                                     <a href="https://github.com/kevinvillarruel12345/Pokedex-app.git" target="_blank">
@@ -222,17 +271,34 @@
                                         <h4 class="dsadadasdsad">Ir al proyecto</h4>
                                     </a>
                                 </div>
+                                
                             </div>          
                         </div>
                         <div class="el__div">
                             <img src="./assets/img/rick.png" alt="">
                             <div class="container__text">
                                 <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Rick and Morty</h3>
-                                <p class="p__briefcase">Rick ando Morty Api permite hacer una búsqueda de los distintos
-                                    universos. Para la creación de esta App se uso hooks, customhooks y para
-                                    las peticiones con axios, se usó componentes como tellwind para darle
-                                    estructura y un orden adecuado</p>
+                                <p class="p__briefcase">Rick ando Morty Api permite hacer una búsqueda de los distintos universos, aquí también se implementó un buscador con el número del universo y muestra la población del mismo.</p>
                             </div>
+                            <div class="title__tecnologies">
+                                <h1>Tecnologías usadas</h1>
+                            </div>
+                            <section class="used__tecnologies">
+                                <div class="my__tecnologies icon_tail__tecnologie">
+                                    <i class='bx bxl-tailwind-css' ></i>
+                                </div>
+                                <div class="my__tecnologies">
+                                   
+                                    <i class="fa-brands fa-react icon_tail__tecnologie"></i>
+                                </div>
+                                <div class="my__tecnologies icon__hmtl_tec">
+                                   
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div class="my__tecnologies icon__js__tec">
+                                    <i class='bx bxl-javascript' ></i>
+                                </div>
+                            </section>
                             <div class="links__brifercase">
                                 <div class="one__link__b">
                                     <a href="https://github.com/kevinvillarruel12345/Appi-Rick-and-Morty.git" target="_blank">
@@ -252,11 +318,26 @@
                             <img src="./assets/img/rick (1).png" alt="">
                             <div class="container__text">
                                 <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Weather App</h3>
-                                <p class="p__briefcase">Implementación de una App del Tiempo haciendo uso de React js con
-                                    Vite. Esta consume la información desde una API. 
-                                    Esta se conecta a la
-                                    ubicación del usuario y renderiza el estado del clima.</p>
+                                <p class="p__briefcase">Implementación de una App del Tiempo haciendo uso de React js con Vite. Esta consume la información desde una API. Esta se conecta a la ubicación del usuario y renderiza el estado del clima. </p>
                             </div>
+                            <div class="title__tecnologies">
+                                <h1>Tecnologías usadas</h1>
+                            </div>
+                            <section class="used__tecnologies">
+                                <div class="my__tecnologies icon_tail__tecnologie">
+                                    <i class='bx bxl-tailwind-css' ></i>
+                                </div>
+                                <div class="my__tecnologies">
+                                   
+                                    <i class="fa-brands fa-react icon_tail__tecnologie"></i>
+                                </div>
+                                <div class="my__tecnologies icon__hmtl_tec">
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div class="my__tecnologies icon__js__tec">
+                                    <i class='bx bxl-javascript' ></i>
+                                </div>
+                            </section>
                             <div class="links__brifercase">
                                 <div class="one__link__b">
                                     <a href="https://github.com/kevinvillarruel12345/app-clima.git" target="_blank">

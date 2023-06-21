@@ -53,13 +53,17 @@ body {
 }
 
 /** Header*/
+
 .header__container {
-  gap: 80px;
-  height: 600px;
-  flex: content;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 600px;
   margin-top: 200px;
+  height: 1000px;
 }
 .first__header__container__p {
   display: flex;
@@ -68,6 +72,7 @@ body {
   margin-top: 120px;
   gap: 50px;
 }
+
 .first__header__container h1 {
   font-size: 50px;
   font-weight: 600;
@@ -75,9 +80,7 @@ body {
   margin-top: 115px;
   margin-bottom: 15px;
 }
-.mi__h1__header {
-  
-}
+
 .solution {
   height: 25px;
 }
@@ -108,6 +111,7 @@ body {
 }
 .second__header__container img {
   height: 450px;
+  margin-top: 60px;
 }
 .is__button {
   display: flex;
@@ -126,7 +130,8 @@ body {
   color: #f9f6ff;
   text-decoration: none;
 }
-/**about*/
+
+/**about me*/
 .about {
   display: flex;
   justify-content: center;
@@ -143,18 +148,23 @@ body {
   max-width: 250px;
   color: #c521e0;
   font-size: 26px;
+  font-weight: bold;
+ 
 }
 .about p {
   max-width: 770px;
   font-size: 18px;
   line-height: 28px;
   color: black;
+  margin-right: 30px;
 }
 /** skills */
 .icon__title__hbilities {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 7px;
+  height: 50px;
 }
 .subtitle__h4 {
   color: white;
@@ -168,6 +178,10 @@ body {
 .icon__html {
   color: yellow;
 }
+.fa-brands {
+  font-size: 30px;
+}
+
 .icon__js {
   color: yellow;
 }
@@ -183,6 +197,20 @@ body {
 .fa-brands fa-github {
   height: 300px;
 }
+.fa-node-js {
+  color: green;
+}
+.icon__html img{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  margin-right: 80px;
+}
+.MYSQLA {
+  position: absolute;
+  margin-left: 20px;
+}
+
 .skills__container h2 {
   display: flex;
   justify-content: center;
@@ -192,21 +220,30 @@ body {
   color: #c521e0;
   font-size: 26px;
 }
+.skills__h3 {
+  color: #c521e0;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
 .skills__items {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   margin-top: 20px;
   gap: 10px;
   display: flex;
-  justify-content: start;
-  overflow-x: scroll;
+  flex-wrap: wrap;
+  padding-left: 50px; 
+  padding-right: 50px;//////////cambios aquí----------------------------------------------
+  background-color: red;
 }
 .skills_elments {
   margin-top: 20px;
   width: 200px;
   background-color: #47077f;
   min-width: 290px;
-  height: 280px;
+  height: 50px;
 }
 .skills_elments p {
   padding: 12px;
@@ -277,9 +314,11 @@ color: black;
   padding-bottom: 20px;
 }
 .container__text{
-  text-align: center;
+  text-align: left;
   padding-top: 50px;
   margin-bottom: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .p__briefcase {
   color: white;
@@ -288,7 +327,52 @@ color: black;
   font-size: Montserrat;
   margin-block-end: 1em;
   font-weight: bold;
-  color: #c521e0;
+  color: #ffffff;
+  text-align: center;
+}
+.used__tecnologies {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-direction: row;
+  background-color: #8b7bef;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 60px;
+}
+.my__tecnologies {
+  background-color: #ffffff; 
+  margin: 10px;
+  width: 40px; 
+  cursor: pointer;
+  height: 40px;
+  border-radius: 50%;
+  padding: 10px;
+}
+.title__tecnologies {
+  text-align: center; 
+  font-size: 15px
+}
+.title__tecnologies h1{
+  color: #ffffff;
+}
+
+.my__tecnologies i {
+  font-size: 23px;
+  margin: 0; 
+}
+.icon_tail__tecnologie {
+  color: blue;
+}
+.icon__hmtl_tec {
+  color: yellow;
+}
+.icon__redux_tec {
+  color: purple;
+}
+.icon__js__tec {
+  color: yellow;
 }
 .links__brifercase {
   text-align: center;
@@ -312,9 +396,7 @@ color: black;
   padding-left: 5px;
 
 }
-.dsadadasdsad h4 {
-  text-decoration: none;
-}
+
 .one__link__b i {
   color: blue;
 }
