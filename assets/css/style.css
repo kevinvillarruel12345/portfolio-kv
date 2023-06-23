@@ -487,6 +487,9 @@ color: black;
   height: 2400px;
     overflow: hidden;
   }
+  .estruc p {
+    margin: 30px;
+  }
   }
 @media (max-width: 850px) {
   *,
