@@ -483,9 +483,11 @@ color: black;
 /** Mobile*/
 @media (min-width: 380px) {
   .estruc p {
-    height: 220px;
-    padding: 20px;
+   
+    margin: 30px;
+
   }
+ 
  
   }
 @media (max-width: 850px) {
@@ -590,12 +592,8 @@ color: black;
  
  .estruc {
   position: relative;
-  margin-top: -370px
+  margin-top: -380px
  } 
- .estruc p {
-  margin-right: -15px;
- }
-  
   .first__header__container__p p {
     display: flex;
     align-content: center;
