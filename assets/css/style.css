@@ -544,10 +544,11 @@ color: black;
   .header__container {
     margin-top: 60px;
     margin-bottom: 60px;
-    height: 550px;
+    height: 1000px;
     max-width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
   }
   .first__header__container {
     display: flex;
@@ -556,9 +557,10 @@ color: black;
   
 .second__header__container img{
     width: 100%;
-    margin-top: 300px;
+    margin-bottom: 800px;
     height: 400px;
 }
+
   .first__header__container__p {
     display: flex;
     flex-direction: column-reverse;
@@ -566,18 +568,27 @@ color: black;
     height: 900px;
   }
   .mi__h1__header {
-    margin-bottom: 120px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
   }
   .mi__h1__header h1 {
     font-size: 33px;
     text-align: center;
+    margin-top: 600px;
+    position: relative;
   }
-  .header__h2{
-    color: white;
-  }
+ 
+ .estruc {
+  position: relative;
+  margin-top: -370px
+ } 
+ .estruc p {
+  margin-right: -15px;
+ }
+  
   .first__header__container__p p {
     display: flex;
     align-content: center;
@@ -597,21 +608,22 @@ color: black;
   }
   /**Habilidades */
   .skills__container {
-    height: 310px;
+    height: 620px;
+
   }
   .skills__container h2 {
     display: flex;
     justify-content: center;
+
   }
   .skills__items {
     display: flex;
     justify-content: start;
-    overflow-x: scroll;
-    height: 360px;
+    
   }
   .skills_elments {
     min-width: 290px;
-    height: 340px;
+    height: 40px;
   }
   .skills_elments p {
     font-size: 18px;
@@ -650,6 +662,9 @@ color: black;
   .mi__bar {
     display: none;
   }
+  .estruc {
+    margin-bottom: 90px;
+  }
 }
 @media (min-width: 1778px) {
 .skills__items{
@@ -658,3 +673,4 @@ color: black;
   justify-content: center;
 }
 }
+
