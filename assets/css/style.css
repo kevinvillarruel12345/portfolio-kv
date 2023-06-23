@@ -481,6 +481,12 @@ color: black;
 }
 
 /** Mobile*/
+@media (min-width: 400px) {
+  .estruc p {
+    height:250px;
+  }
+  
+  }
 @media (max-width: 850px) {
   *,
   *::after,
