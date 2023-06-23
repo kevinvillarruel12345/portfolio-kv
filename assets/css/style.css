@@ -483,11 +483,10 @@ color: black;
 /** Mobile*/
 @media (min-width: 380px) {
   .estruc p {
-   height: 400px;
-   margin-left: 3px;
-   width: 360px;
+    height: 220px;
+    padding: 20px;
   }
-  
+ 
   }
 @media (max-width: 850px) {
   *,
