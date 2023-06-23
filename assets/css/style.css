@@ -482,13 +482,11 @@ color: black;
 
 /** Mobile*/
 @media (min-width: 380px) {
-  .estruc p {
-   
-    margin: 30px;
-
+  .container__images  {
+   width: 100%;
+  height: 2400px;
+    overflow: hidden;
   }
- 
- 
   }
 @media (max-width: 850px) {
   *,
