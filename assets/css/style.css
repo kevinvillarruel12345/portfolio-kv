@@ -305,14 +305,18 @@ color: black;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
 }
 .el__div {
   max-width: 400px;
   margin: 0px 20px;
+  margin-bottom: 10px;
   background-color: #47077f;
-  margin: 20px 20px;
-  padding-bottom: 20px;
-  height: 700px;
+  padding-bottom: 200px;
+  max-height: 700px;
+  min-height: 700px;
+
+  
 }
 .container__text{
   text-align: left;
@@ -420,7 +424,7 @@ color: black;
 }
 .container__images img {
   width: 400px;
-  height: 237px;
+  max-height: 237px;
 }
 .one__link__b a {
   text-decoration: none;
@@ -484,9 +488,8 @@ color: black;
 /** Mobile*/
 @media (min-width: 380px) {
   .container__images  {
-   width: 100%;
-  height: 2400px;
-    overflow: hidden;
+   
+   
   }
   .estruc p {
     margin: 30px;
