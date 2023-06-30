@@ -177,6 +177,7 @@ body {
 }
 .icon__html {
   color: yellow;
+  font-size: 30px;
 }
 .fa-brands {
   font-size: 30px;
@@ -200,15 +201,20 @@ body {
 .fa-node-js {
   color: green;
 }
+.psql {
+  color: blue;
+
+}
 .icon__html img{
   height: 100px;
   width: 100px;
   position: relative;
   margin-right: 80px;
 }
-.MYSQLA {
+.MYSQLA  i{
   position: absolute;
   margin-left: 20px;
+  color: blue;
 }
 
 .skills__container h2 {
