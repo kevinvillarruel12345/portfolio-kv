@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    
+    <!--!scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--!font family-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,14 +33,14 @@
         
     </style>
 
-    <title>Página web</title>
+    <title>Portafolio</title>
 </head>
 <body id="is__body">
     <nav class="nav">
         <button class="mi__bar">
             <i class="fa-solid fa-burger"></i>
         </button>
-        <ul class="mi__manu" id="menu" >
+        <ul class="mi__manu" id="menu"  data-aos="fade-up">
             <li class="nav__mi_menu home">
                 <a href="#is__body" class="mi__menu__link menu__link" onclick="closeMenu()">
                     Acerca de mí
@@ -68,11 +71,11 @@
     <header class="header__container">
         <div class="first__header__container">
             <div class="first__header__container__p">
-        <div class="mi__h1__header">
-                <h1>Kevin Villarruel</h1>
-                <h2 class="header__h2">Full stack Developer</h2>
+        <div class="mi__h1__header"  > 
+                <h1 data-aos="fade-right">Kevin Villarruel</h1>
+                <h2 class="header__h2" data-aos="fade-right" >Full stack Developer</h2>
                 <hr>
-            <div class="icons__container">
+            <div class="icons__container" data-aos="fade-right">
                 <div class="icon__shape">
                     <a href="https://www.linkedin.com/in/kevin-villarruel-528631243/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
@@ -82,7 +85,7 @@
                 
             </div>
             <div>
-                <button class="is__button">
+                <button class="is__button" >
                     <a href="https://drive.google.com/file/d/1SoIelnDnLDkGTt--nZ3TyD8rwcrzg8w9/view?usp=sharing" target="_blank"><i class="fa-solid fa-file-lines"></i></a>
                    <a href="https://drive.google.com/file/d/1SoIelnDnLDkGTt--nZ3TyD8rwcrzg8w9/view?usp=sharing" target="_blank"> <p>Descargar C.V</p></a>
             </button>
@@ -98,7 +101,7 @@
             </article>
           
         </div>
-        <div class="second__header__container">
+        <div class="second__header__container scroll__img" data-aos="zoom-out-left">
             <img src="./assets/img/perfil-kvs-1-p (4).png" alt="">
         </div>
   
@@ -107,10 +110,10 @@
         
     </header>
     <main id="is__main">
-        <section class="skills__container">
+        <section class="skills__container" >
                     <h2 class="skills__h2">Habilidades Tecnicas</h2>
-                    <h3 class="skills__h3">Front-end</h3>
-                <div class="skills__items">
+                    <h3 class="skills__h3" >Front-end</h3>
+                <div class="skills__items"  data-aos="fade-right">
                     <div class="skills_elments">                    
                         <div class="icon__title__hbilities"> 
                             <div class="icon__html">  
@@ -163,7 +166,7 @@
                     </div>                                        
                 </div>
                 <h3  class="skills__h3">Back-end</h3>
-                <div class="skills__items">
+                <div class="skills__items" data-aos="fade-right">
                     <div class="skills_elments">                    
                         <div class="icon__title__hbilities"> 
                             <div class="icon__html">  
@@ -174,7 +177,7 @@
                     </div>
                     </div> 
                     <h3  class="skills__h3">Database</h3>
-                <div class="skills__items">
+                <div class="skills__items" data-aos="fade-right">
                     <div class="skills_elments">                    
                         <div class="icon__title__hbilities"> 
                             <div class="icon__html">  
@@ -200,22 +203,22 @@
                 <div>
                     <h2 class="h2__experience">Habilidades blandas</h2>
                 </div>
-                <div class="experience__items">
-                    <div class="experience__icons">
+                <div class="experience__items" >
+                    <div class="experience__icons" data-aos="fade-up">
                         <a class="fa-solid fa-cubes-stacked"></a>
                     </div>
                     <div class="experience__text">
                         <p>Adaptabilidad</p>
                         <hr>
                     </div>
-                    <div class="experience__icons">
+                    <div class="experience__icons" data-aos="fade-up">
                         <a class="fa-sharp fa-solid fa-person-chalkboard"></a>
                     </div>
                     <div class="experience__text">
                         <p>Comunicación efectiva</p>
                         <hr>
                     </div>
-                    <div class="experience__icons">
+                    <div class="experience__icons" data-aos="fade-up">
                         <a class="fa-solid fa-people-group"></a>
                     </div>
                     <div class="experience__text">
@@ -225,11 +228,11 @@
                </div>        
             </section> 
         </section> 
-        <section id="portafolio">
+        <section id="portafolio" >
             <section class="element__briefcase">  
                         <h2 class="h2__briefcase"> Portafolio</h2>
-                    <div class="container__images">
-                        <div class="el__div">
+                    <div class="container__images" data-aos="fade-up">
+                        <div class="el__div" >
                             <img class="pokesd" src="./assets/img/pokemon.png" alt="">  
                             <div class="container__text">
                                 <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Poke Appi</h3>
@@ -274,7 +277,7 @@
                                 
                             </div>          
                         </div>
-                        <div class="el__div">
+                        <div class="el__div" >
                             <img src="./assets/img/rick.png" alt="">
                             <div class="container__text">
                                 <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Rick and Morty</h3>
@@ -314,7 +317,7 @@
                                 </div> 
                             </div>
                         </div>
-                        <div class="el__div">
+                        <div class="el__div" >
                             <img src="./assets/img/rick (1).png" alt="">
                             <div class="container__text">
                                 <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Weather App</h3>
@@ -361,16 +364,16 @@
                 <div class="element__title2">
                     <h2>Contacto</h2>
                 </div>                
-                <div class="phone__container">   
+                <div class="phone__container" >   
                     <div class="element__telephone">
-                        <div class="container__img">
+                        <div class="container__img" data-aos="fade-right">
                             <a href=""><i class="fa-solid fa-phone"></i></a>
                         </div>
                         <h4>Número de celular</h4>
                         <p>+593961034439</p>
                     </div>                    
                     <div class="element__telephone">
-                        <div class="container__img">
+                        <div class="container__img" data-aos="fade-left">
                             <a href=""><i class="fa-solid fa-envelope"></i></a>
                         </div>
                             <h4>Correo</h4>
@@ -382,9 +385,15 @@
     </main>
     <footer class="finish">
         <div>
-            <p class="">K.V</p>
+            <p class="">K.Villarruelss</p>
         </div>
     </footer>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
