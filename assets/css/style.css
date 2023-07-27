@@ -225,6 +225,7 @@ body {
 .skills__h2 {
   color: #c521e0;
   font-size: 26px;
+  padding: 50px;
 }
 .skills__h3 {
   color: #c521e0;
@@ -241,8 +242,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-left: 50px; 
-  padding-right: 50px;//////////cambios aquí----------------------------------------------
-  background-color: red;
+  padding-right: 50px;
+  
 }
 .skills_elments {
   margin-top: 20px;
@@ -443,7 +444,7 @@ color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  padding: 30px;
 }
 .element__title2 {
   font-size: 17px;
@@ -493,10 +494,7 @@ color: black;
 
 /** Mobile*/
 @media (min-width: 380px) {
-  .container__images  {
-   
-   
-  }
+ 
   .estruc p {
     margin: 30px;
   }
@@ -539,9 +537,7 @@ color: black;
     z-index: 10;
     transition: 0.7s;
   }
-  .mi__manu li {
   
-  }
   .nav__mi_menu {
     line-height: 40px;
     list-style: none;
@@ -570,10 +566,7 @@ color: black;
     justify-content: center;
     position: relative;
   }
-  .first__header__container {
-    display: flex;
-    align-items: center;
-  }
+ 
   
 .second__header__container img{
     width: 100%;
@@ -588,10 +581,13 @@ color: black;
     height: 900px;
   }
   .mi__h1__header {
-    margin-bottom: 20px;
+    margin-bottom: 1600px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    
+  }
+  second__header__container img{
     position: absolute;
   }
   .mi__h1__header h1 {
@@ -603,7 +599,7 @@ color: black;
  
  .estruc {
   position: relative;
-  margin-top: -380px
+  margin-top: -280px
  } 
   .first__header__container__p p {
     display: flex;
