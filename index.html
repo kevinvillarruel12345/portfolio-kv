@@ -51,11 +51,6 @@
                     Habilidades Tecnicas
                 </a>
             </li>
-            <li class="nav__mi_menu experiencia">
-                <a href="#is__habilities" class="mi__menu__link menu__link" onclick="closeMenu()"> 
-                    Habilidades blandas
-                </a>
-            </li>
             <li class="nav__mi_menu portafolio">
                 <a href="#portafolio" class="mi__menu__link menu__link" onclick="closeMenu()">
                     portafolio
@@ -132,6 +127,14 @@
                     </div>
                     <div class="skills_elments">
                         <div class="icon__title__hbilities">
+                            <div class="icon__botstrap">    
+                                <i class="fa-brands fa-bootstrap"></i> 
+                            </div>                            
+                            <h4 class="subtitle__h4">Botstrap</h4>
+                        </div>
+                    </div>
+                    <div class="skills_elments">
+                        <div class="icon__title__hbilities">
                             <div class="icon__js"> 
                               <i class="fa-brands fa-js"></i> 
                             </div>                          
@@ -198,40 +201,54 @@
                     </div>                                           
                 </div>
         </section>
-        <section id="is__habilities"  >
-            <section class="experience">
-                <div>
-                    <h2 class="h2__experience">Habilidades blandas</h2>
-                </div>
-                <div class="experience__items" >
-                    <div class="experience__icons" data-aos="fade-up">
-                        <a class="fa-solid fa-cubes-stacked"></a>
-                    </div>
-                    <div class="experience__text">
-                        <p>Adaptabilidad</p>
-                        <hr>
-                    </div>
-                    <div class="experience__icons" data-aos="fade-up">
-                        <a class="fa-sharp fa-solid fa-person-chalkboard"></a>
-                    </div>
-                    <div class="experience__text">
-                        <p>Comunicación efectiva</p>
-                        <hr>
-                    </div>
-                    <div class="experience__icons" data-aos="fade-up">
-                        <a class="fa-solid fa-people-group"></a>
-                    </div>
-                    <div class="experience__text">
-                        <p>Trabajo en equipo</p>
-                        <hr>
-                    </div>
-               </div>        
-            </section> 
-        </section> 
+        
         <section id="portafolio" >
             <section class="element__briefcase">  
                         <h2 class="h2__briefcase"> Portafolio</h2>
                     <div class="container__images" data-aos="fade-up">
+                        <div class="el__div" >
+                            <img class="pokesd" src="./assets/img/ecommerce.png" alt="">
+                            <div class="container__text">
+                                <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Ecommerce</h3>
+                                <p class="p__briefcase">Ecommerce dinámico con funciones de carrito: agrega, controla y elimina productos fácilmente.
+                                </p>
+                            </div>
+                            <div class="title__tecnologies">
+                                <h1>Tecnologías usadas</h1>
+                            </div>
+                            <section class="used__tecnologies">
+                                <div class="my__tecnologies icon_tail__tecnologie">
+                                    <i class="fa-brands fa-bootstrap"></i>
+                                </div>
+                                <div class="my__tecnologies">
+                                   
+                                    <i class="fa-brands fa-react icon_tail__tecnologie"></i>
+                                </div>
+                                <div class="my__tecnologies icon__hmtl_tec">
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div class="my__tecnologies icon__js__tec">
+                                    <i class='bx bxl-javascript' ></i>
+                                </div>
+                                <div class="my__tecnologies icon__redux_tec">
+                                    <i class='bx bxl-redux'></i>
+                                </div>
+                            </section>
+                            <div class="links__brifercase">
+                                <div class="one__link__b">
+                                    <a href="https://github.com/kevinvillarruel12345/Ecommerce-nov.git" target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                        <p>GitHub</p> 
+                                    </a>
+                                </div>
+                                <div class="two__link_b">
+                                    <a href="https://ecommerce-kv.netlify.app/" target="_blank">
+                                        <i class="fa-solid fa-square-arrow-up-right"></i>
+                                        <p>Ir al proyecto</p> 
+                                    </a>
+                                </div>
+                            </div> 
+                        </div>
                         <div class="el__div" >
                             <img class="pokesd" src="./assets/img/pokemon.png" alt="">  
                             <div class="container__text">
@@ -316,45 +333,6 @@
                                     </a>
                                 </div> 
                             </div>
-                        </div>
-                        <div class="el__div" >
-                            <img src="./assets/img/rick (1).png" alt="">
-                            <div class="container__text">
-                                <h3 class="h3__briefcase"><i class="fa-brands fa-react"></i>Weather App</h3>
-                                <p class="p__briefcase">Implementación de una App del Tiempo haciendo uso de React js con Vite. Esta consume la información desde una API. Esta se conecta a la ubicación del usuario y renderiza el estado del clima. </p>
-                            </div>
-                            <div class="title__tecnologies">
-                                <h1>Tecnologías usadas</h1>
-                            </div>
-                            <section class="used__tecnologies">
-                                <div class="my__tecnologies icon_tail__tecnologie">
-                                    <i class='bx bxl-tailwind-css' ></i>
-                                </div>
-                                <div class="my__tecnologies">
-                                   
-                                    <i class="fa-brands fa-react icon_tail__tecnologie"></i>
-                                </div>
-                                <div class="my__tecnologies icon__hmtl_tec">
-                                    <i class="fa-brands fa-html5"></i>
-                                </div>
-                                <div class="my__tecnologies icon__js__tec">
-                                    <i class='bx bxl-javascript' ></i>
-                                </div>
-                            </section>
-                            <div class="links__brifercase">
-                                <div class="one__link__b">
-                                    <a href="https://github.com/kevinvillarruel12345/app-clima.git" target="_blank">
-                                        <i class="fa-brands fa-github"></i>
-                                        <p>GitHub</p> 
-                                    </a>
-                                </div>
-                                <div class="two__link_b">
-                                    <a href="https://app-clima-kevin-villarruel.netlify.app/" target="_blank">
-                                        <i class="fa-solid fa-square-arrow-up-right"></i>
-                                        <p>Ir al proyecto</p> 
-                                    </a>
-                                </div>
-                            </div> 
                         </div>
                     </div>    
             </section>

@@ -11,7 +11,6 @@ body {
 }
 .header__container {
   background-color: white;
- 
 }
 :root {
   --purple: #8e7bef;
@@ -149,7 +148,6 @@ body {
   color: #c521e0;
   font-size: 26px;
   font-weight: bold;
- 
 }
 .about p {
   max-width: 770px;
@@ -174,6 +172,9 @@ body {
 }
 .icon__css {
   color: blue;
+}
+.icon__botstrap {
+  color: #712cf9;
 }
 .icon__html {
   color: yellow;
@@ -203,15 +204,14 @@ body {
 }
 .psql {
   color: blue;
-
 }
-.icon__html img{
+.icon__html img {
   height: 100px;
   width: 100px;
   position: relative;
   margin-right: 80px;
 }
-.MYSQLA  i{
+.MYSQLA i {
   position: absolute;
   margin-left: 20px;
   color: blue;
@@ -241,9 +241,8 @@ body {
   gap: 10px;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 50px; 
+  padding-left: 50px;
   padding-right: 50px;
-  
 }
 .skills_elments {
   margin-top: 20px;
@@ -299,10 +298,10 @@ color: black;
   margin-left: 60px;
 }
 /**portafolio*/
-.h2__briefcase{
+.h2__briefcase {
   text-align: center;
   padding: 90px;
- color: #c521e0;
+  color: #c521e0;
 }
 .h3__briefcase i {
   color: blue;
@@ -312,7 +311,6 @@ color: black;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  
 }
 .el__div {
   max-width: 400px;
@@ -322,10 +320,8 @@ color: black;
   padding-bottom: 200px;
   max-height: 700px;
   min-height: 700px;
-
-  
 }
-.container__text{
+.container__text {
   text-align: left;
   padding-top: 50px;
   margin-bottom: 50px;
@@ -348,31 +344,29 @@ color: black;
   flex-direction: column;
   flex-direction: row;
   background-color: #8b7bef;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-top: 10px;
-  height: 60px;
 }
 .my__tecnologies {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   margin: 10px;
-  width: 40px; 
+  width: 40px;
   cursor: pointer;
   height: 40px;
   border-radius: 50%;
-  padding: 10px;
+  padding: 8px;
+  text-align: center;
 }
+
 .title__tecnologies {
-  text-align: center; 
-  font-size: 15px
+  text-align: center;
+  font-size: 15px;
 }
-.title__tecnologies h1{
+.title__tecnologies h1 {
   color: #ffffff;
 }
 
 .my__tecnologies i {
   font-size: 23px;
-  margin: 0; 
+  margin: 0;
 }
 .icon_tail__tecnologie {
   color: blue;
@@ -393,20 +387,19 @@ color: black;
 }
 .one__link__b {
   background-color: #8b7bef;
-    margin: 10px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
-    cursor: pointer;
-    box-shadow: 1px 1px 1px #6160601f;
-    border-radius: 2px;
-    transition: all 0.25s;
+  margin: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px #6160601f;
+  border-radius: 2px;
+  transition: all 0.25s;
 }
 .one__link__b p {
   color: white;
   padding-left: 5px;
-
 }
 
 .one__link__b i {
@@ -421,13 +414,13 @@ color: black;
 }
 .two__link_b {
   background-color: #8b7bef;
-    margin: 10px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0px;
-    cursor: pointer;
-    border-radius: 2px;
+  margin: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+  cursor: pointer;
+  border-radius: 2px;
 }
 .container__images img {
   width: 400px;
@@ -460,13 +453,12 @@ color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 .container__img {
   font-size: 50px;
   height: 120px;
   width: 120px;
-  background-color:  #47077f;
+  background-color: #47077f;
   border-radius: 25%;
   display: flex;
   justify-content: center;
@@ -476,7 +468,7 @@ color: black;
 .container__img a {
   color: white;
 }
-.element__telephone p{ 
+.element__telephone p {
   font-weight: 500;
 }
 .element__telephone h4 {
@@ -494,11 +486,10 @@ color: black;
 
 /** Mobile*/
 @media (min-width: 380px) {
- 
   .estruc p {
     margin: 30px;
   }
-  }
+}
 @media (max-width: 850px) {
   *,
   *::after,
@@ -531,13 +522,13 @@ color: black;
     position: fixed;
     top: 60px;
     width: 100%;
-    padding: 2px; 
+    padding: 2px;
     overflow-y: auto;
     left: 100%;
     z-index: 10;
     transition: 0.7s;
   }
-  
+
   .nav__mi_menu {
     line-height: 40px;
     list-style: none;
@@ -566,13 +557,12 @@ color: black;
     justify-content: center;
     position: relative;
   }
- 
-  
-.second__header__container img{
+
+  .second__header__container img {
     width: 100%;
     margin-bottom: 800px;
     height: 400px;
-}
+  }
 
   .first__header__container__p {
     display: flex;
@@ -585,9 +575,8 @@ color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
   }
-  second__header__container img{
+  second__header__container img {
     position: absolute;
   }
   .mi__h1__header h1 {
@@ -596,11 +585,11 @@ color: black;
     margin-top: 600px;
     position: relative;
   }
- 
- .estruc {
-  position: relative;
-  margin-top: -280px
- } 
+
+  .estruc {
+    position: relative;
+    margin-top: -280px;
+  }
   .first__header__container__p p {
     display: flex;
     align-content: center;
@@ -621,7 +610,7 @@ color: black;
   /**Habilidades */
   .skills__container {
     height: 620px;
-
+    margin-bottom: 300px;
   }
   .skills__container h2 {
     display: flex;
@@ -631,7 +620,6 @@ color: black;
   .skills__items {
     display: flex;
     justify-content: start;
-    
   }
   .skills_elments {
     min-width: 290px;
@@ -655,8 +643,8 @@ color: black;
     display: flex;
   }
   /** portafolio*/
-  .container__images{
-    width: 100%; 
+  .container__images {
+    width: 100%;
     padding: 20px;
     border: 1px solid #ccc;
   }
@@ -679,10 +667,9 @@ color: black;
   }
 }
 @media (min-width: 1778px) {
-.skills__items{
-  overflow-x:hidden;
-  display: flex;
-  justify-content: center;
+  .skills__items {
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+  }
 }
-}
-
